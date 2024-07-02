@@ -6,8 +6,8 @@ function checker(){
     event.preventDefault();
 
 let lowerCaseInput = input.toLowerCase();
- let inputLen = input.length
- for (var i = 0; i < inputLen/2; i++){
+ let inputLen = input.value.length
+ for (var i = 0; i < inputLen; i++){
     if (input[i] !== input[inputLen - 1 - i]){
         let h2 = document.querySelector("h2");
         h2.innerHTML = `${input.value} is a NOT Palindrome`
@@ -16,9 +16,21 @@ let lowerCaseInput = input.toLowerCase();
     }
 
  }
-
 }
-form.addEventListener("submit", checker);
+form.addEventListener("click", checker);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*let input = document.querySelector("#input");
  let form = document.querySelector("#btn");
