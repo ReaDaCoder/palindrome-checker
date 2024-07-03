@@ -1,7 +1,7 @@
 
 
-let input = document.querySelector("input");
-let form = document.querySelector("btn");
+let input = document.querySelector("#input");
+let form = document.querySelector("#btn");
 let h2 = document.querySelector("h2");
 
 function checker(){
@@ -15,8 +15,9 @@ function checker(){
     } else{
         h2.innerText = `${input.value} is a Palindrome`
     }
-
+   console.log(input);
  }
+ input.value = ''
 }
 form.addEventListener("click", checker);
 
