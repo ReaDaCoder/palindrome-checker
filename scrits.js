@@ -15,9 +15,9 @@ function checker(){
     } else{
         h2.innerText = `${input.value} is a Palindrome`
     }
-   console.log(input);
  }
  input.value = ''
+ conloge.log('is this function being called');
 }
 form.addEventListener("click", checker);
 
