@@ -16,4 +16,4 @@ function checker(event) {
   }
   input.value = '';
 }
-form.addEventListener('click', (event) => checker(event));
+form.addEventListener('click', (event)=> checker(event));
