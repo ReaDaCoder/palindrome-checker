@@ -4,7 +4,7 @@ let input = document.querySelector("#input");
 let form = document.querySelector("#btn");
 let h2 = document.querySelector("h2");
 
-function checker(){
+function checker(event){
     event.preventDefault();
 
 //let lowerCaseInput = input.toLowerCase();
@@ -17,7 +17,7 @@ function checker(){
     }
  }
  input.value = ''
- console.log('is this function being called');
+ console.log(event);
 }
 form.addEventListener("click", checker);
 
