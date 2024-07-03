@@ -17,7 +17,7 @@ function checker(){
     }
  }
  input.value = ''
- conloge.log('is this function being called');
+ console.log('is this function being called');
 }
 form.addEventListener("click", checker);
 
