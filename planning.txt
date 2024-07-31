@@ -1,10 +1,11 @@
 1. Display UI
 2. Initialise variables to get user input
-3. Create a functin that is goingto be linked to the button
+3. Create a function that is going to be linked to the button
 4. Create a loop that will check matching characters
-5. In the loop intitailize i to zero
-6. Set the condition where i is less than input.length
-7. Then with each iteration increment by 1
-8. Reinitialiaze the input variable
-9. Get the value of the input
-10. Run function whn submit button is clicked.
+    a. In the loop intitailize i to zero
+    b. Set the condition: i is less than input.length
+    c. Then with each iteration increment by 1
+5.  Loop block
+    a. Reinitialiaze the input variable
+    b. Get the value of the input
+6. Run function when submit button is clicked.

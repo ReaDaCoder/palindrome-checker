@@ -1,17 +1,19 @@
-//Create function for submit button
-function checker(){
+//Initialize variable for user input
+SET input = HTML element
+SET h2 = HTML element(h2)
 
+// Create function for submit button
+CALL function checker(){
 }
-//Inside the function initialize the variable that gets the user input
-let input = user input
 
-//Initialize the variable for that selects HTML element
-let h2 = document.querySelector("h2") ;
+//SET loop
+index = zero
+index is LESS THAN userInput.length
+ADD 1 each time
 
-//Create a loop to check the matching letters
-for(let i=0;)
+//Inside LOOP block
+h2.innerHHTML = userInput.value
 
-//Initiaze the viaraible that gets the form 
-let form = document.getElementById
-
-//Add an event listener for the button and call the fuction to run
+//SET variable that gets form
+form = get HTML element  by Inside
+ADD event Listener and call checker function
